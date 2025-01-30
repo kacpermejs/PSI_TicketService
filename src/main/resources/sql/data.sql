@@ -21,10 +21,10 @@ INSERT INTO ticket_entity (id, seat_id, order_id, event_id, section_id, validity
 (5,  5, NULL, 1, 8, 1, 1, 21.37, 'efabcd'),
 (6,  6, NULL, 1, 8, 1, 1, 21.37, 'fabcde'),
 -- inny event
-(7,  1, 2,    2, 1, 2, 2, 21.37, 'xxxxxx'),
-(8,  2, 2,    2, 1, 2, 2, 21.37, 'yyyyyy'),
-(9,  3, 2,    2, 1, 2, 2, 21.37, 'zzzzzz'),
-(10, 4, 2,    2, 1, 2, 2, 21.37, 'wwwwww')
+(7,  1, 2,    2, 1, 0, 2, 21.37, 'xxxxxx'),
+(8,  2, 2,    2, 1, 0, 2, 21.37, 'yyyyyy'),
+(9,  3, 2,    2, 1, 0, 2, 21.37, 'zzzzzz'),
+(10, 4, 2,    2, 1, 0, 2, 21.37, 'wwwwww')
 ;
 
 
