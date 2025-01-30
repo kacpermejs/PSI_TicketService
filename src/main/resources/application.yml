@@ -16,5 +16,5 @@ spring:
     password: password
   sql:
     init:
-      mode: never
+      mode: always
       data-locations: classpath:/sql/data.sql
