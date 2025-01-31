@@ -1,7 +1,7 @@
 package com.PSI.TicketService.Enums;
 
 public enum TicketValidity {
-    CHECKED,
+    INVALID,
     VALID,
-    INVALID
+    CHECKED
 }

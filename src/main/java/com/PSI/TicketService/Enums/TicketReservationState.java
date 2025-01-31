@@ -1,7 +1,7 @@
 package com.PSI.TicketService.Enums;
 
 public enum TicketReservationState {
-    RESERVED,
     UNRESERVED,
+    RESERVED,
     PAID
 }
