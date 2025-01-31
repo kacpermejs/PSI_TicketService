@@ -1,6 +1,10 @@
 server:
   port: 8082
 
+eventService:
+  address: ${EVENT_SERVICE_ADDRESS:localhost}
+  port: ${EVENT_SERVICE_PORT:8080}
+
 spring:
   profiles:
     active: ${SPRING_PROFILES_ACTIVE:dev}
