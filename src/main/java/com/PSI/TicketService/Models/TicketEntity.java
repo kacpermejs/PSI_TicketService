@@ -12,14 +12,14 @@ public class TicketEntity {
     @Id
     private long id;
 
-    @Column(nullable=false)
-    private long seatId;
-
     @Column(nullable=true)
     private Long orderId;
 
     @Column(nullable=false)
     private long eventId;
+
+    @Column(nullable=false)
+    private long seatId;
 
     @Column(nullable=false)
     private long sectionId;
