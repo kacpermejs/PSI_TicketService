@@ -11,5 +11,4 @@ import java.util.List;
 public class OrderTicketDTO {
     private Long orderId;
     private List<Long> ticketIds;
-    private TicketReservationState ticketReservationState;
 }

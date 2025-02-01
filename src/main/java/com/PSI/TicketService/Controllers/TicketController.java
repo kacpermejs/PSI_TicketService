@@ -62,7 +62,7 @@ public class TicketController {
 
         // RESERVE tickets
         if (allUnreserved) {
-            ticketService.changeTicketReservationState(ticketIds.getTicketIds(), ticketIds.getTicketReservationState(), ticketIds.getOrderId());
+            ticketService.changeTicketReservationState(ticketIds.getTicketIds(), TicketReservationState.RESERVED, ticketIds.getOrderId());
             System.out.println("Reservation for order " + ticketIds.getOrderId() + " made");
         }
 

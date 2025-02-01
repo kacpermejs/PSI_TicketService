@@ -30,10 +30,10 @@ DELETE FROM ticket_entity;
 -- section_id, row_id, seat_id = schematic_object_id, przynajmniej ja tak to rozumiem i inaczej pierdole numeracje na tickecie
 -- jednak nie schematic id
 INSERT INTO ticket_entity (id, order_id, event_id, seat_id, section_id, validity, ticket_state, price, qr_code) VALUES
-(1,  1, 1,    1, 1, 1, 1, 21.37, 'abcdef'),
-(2,  1, 1,    2, 1, 1, 1, 21.37, 'bcdefa'),
-(3,  1, 1,    3, 1, 1, 1, 21.37, 'cdefab'),
- (4, 1, 1,    4, 1, 1, 1, 21.37, 'defabc'),
+(1,  1, 1,    1, 1, 1, 0, 21.37, 'abcdef'),
+(2,  1, 1,    2, 1, 1, 0, 21.37, 'bcdefa'),
+(3,  1, 1,    3, 1, 1, 0, 21.37, 'cdefab'),
+ (4, 1, 1,    4, 1, 1, 0, 21.37, 'defabc'),
 -- bez przydziału do jakiegos order
 (5,  NULL, 1, 5, 2, 1, 0, 21.37, 'efabcd'),
 (6,  NULL, 1, 6, 2, 1, 0, 21.37, 'fabcde'),
